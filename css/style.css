@@ -81,7 +81,7 @@ button,
 }
 
 .home-carousel p {
-    font-weight: 300;
+    font-weight: 600;
     font-size: 15px;
 }
 
@@ -1308,6 +1308,7 @@ label.error {
         color: #484848;
     }
     .home-carousel p {
+        font-weight: 300;
         font-size: 13px;
         color: #484848;
         padding: 0 20px;
