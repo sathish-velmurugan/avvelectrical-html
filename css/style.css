@@ -1,0 +1,1510 @@
+/*CSS Document */
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    color: #595959;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+button,
+.btn {
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    outline: none;
+}
+
+/* Navbar css start */
+.navbar {
+    padding: 30px 0;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .fa-bars {
+    color: #c5112d;
+}
+.navbar-toggler {
+    border: 1px solid #c5112d;
+    padding: 0.25rem 0.25rem;
+}
+.navbar-toggler-icon {
+    height: auto;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    padding-right: 2.5rem;
+}
+
+.navbar .btn-danger {
+    color: #ffffff;
+    background-color: #c5112d;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.navbar .btn-danger:hover {
+    background-color: #000000;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .show>.nav-link {
+    color: #c5112d;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: #c5112d;
+}
+
+/* Navbar css end */
+/* Slider css start */
+.home-carousel .carousel-caption {
+    width: 50%;
+    text-align: left;
+    right: 40%;
+    bottom: 7.25rem;
+    left: 40%;
+}
+
+.home-carousel h5 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.home-carousel p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* Slider css end */
+/* home - Our Professional Electrical Services css start */
+.home-services {
+    padding: 60px 0;
+}
+
+.home-services h5 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #484848;
+    margin-bottom: 30px;
+}
+
+.home-services p {
+    font-size: 15px;
+    width: 85%;
+    margin: 0 auto 1rem auto;
+}
+
+.home-service-width {
+    width: 65%;
+    margin: 40px auto 0 auto;
+}
+
+.home-services a {
+    color: #484848;
+    font-size: 16px;
+}
+
+.home-services a:hover {
+    color: #c3273e;
+}
+
+.home-services .col {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* home - Our Professional Electrical Services css end */
+/* home - 24 Hours Electrician in Singapore css start */
+.home-electrician {
+    background-image: url(../images/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 120px 0 100px 0;
+    color: #ffffff;
+}
+
+.home-electrician .row {
+    top: 30%;
+}
+
+.home-electrician h5 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.home-electrician a {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 12px;
+    font-size: 17px;
+}
+
+.home-electrician a:hover {
+    background-color: #c5112d;
+}
+
+.home-electrician p {
+    padding-bottom: 20px;
+}
+
+.home-electrician a span {
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+}
+
+/* home - 24 Hours Electrician in Singapore css end */
+/* home - projects start */
+.home-projects {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.home-projects h5 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #484848;
+    margin-bottom: 30px;
+}
+.project-width {
+    width: 80%;
+    margin: 0 auto;
+}
+.home-projects p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.home-projects h6 {
+    color: #484848;
+    font-size: 28px;
+    font-weight: 600;
+}
+.home-projects span {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+}
+.home-projects .project-width .col {
+    margin-bottom: 15px;
+}
+.magnific-img.col {
+    margin-bottom: 14px;
+    padding: 0 7px;
+}
+.magnific-img img {
+    width: 100%;
+    height: auto;
+}
+
+a.image-popup-vertical-fit {
+    cursor: -webkit-zoom-in;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    /* ideally, transition speed should match zoom duration */
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.98;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+
+.mfp-arrow-left:before {
+    border-right: none !important;
+}
+
+.mfp-arrow-right:before {
+    border-left: none !important;
+}
+
+button.mfp-arrow,
+.mfp-counter {
+    opacity: 0 !important;
+    transition: opacity 200ms ease-in, opacity 2000ms ease-out;
+}
+
+.mfp-container:hover button.mfp-arrow,
+.mfp-container:hover .mfp-counter {
+    opacity: 1 !important;
+}
+
+/* Magnific Popup CSS */
+.mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.8;
+}
+
+.mfp-wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1043;
+    position: fixed;
+    outline: none !important;
+}
+
+.mfp-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.mfp-container:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.mfp-align-top .mfp-container:before {
+    display: none;
+}
+
+.mfp-content {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 1045;
+}
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+    width: 100%;
+    cursor: auto;
+}
+
+.mfp-ajax-cur {
+    cursor: progress;
+}
+
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: -moz-zoom-out;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+}
+
+.mfp-zoom {
+    cursor: pointer;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.mfp-auto-cursor .mfp-content {
+    cursor: auto;
+}
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.mfp-loading.mfp-figure {
+    display: none;
+}
+
+.mfp-hide {
+    display: none !important;
+}
+
+.mfp-preloader {
+    color: #ccc;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    text-align: center;
+    margin-top: -0.8em;
+    left: 8px;
+    right: 8px;
+    z-index: 1044;
+}
+
+.mfp-preloader a {
+    color: #ccc;
+}
+
+.mfp-preloader a:hover {
+    color: #fff;
+}
+
+.mfp-s-ready .mfp-preloader {
+    display: none;
+}
+
+.mfp-s-error .mfp-content {
+    display: none;
+}
+
+button.mfp-close,
+button.mfp-arrow {
+    overflow: visible;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    box-shadow: none;
+    touch-action: manipulation;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.65;
+    padding: 0 0 18px 10px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.mfp-close:hover,
+.mfp-close:focus {
+    opacity: 1;
+}
+
+.mfp-close:active {
+    top: 1px;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: #333;
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+    color: #fff;
+    right: -6px;
+    text-align: right;
+    padding-right: 6px;
+    width: 100%;
+}
+
+.mfp-counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.mfp-arrow {
+    position: absolute;
+    opacity: 0.65;
+    margin: 0;
+    top: 50%;
+    margin-top: -55px;
+    padding: 0;
+    width: 90px;
+    height: 110px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.mfp-arrow:active {
+    margin-top: -54px;
+}
+
+.mfp-arrow:hover,
+.mfp-arrow:focus {
+    opacity: 1;
+}
+
+.mfp-arrow:before,
+.mfp-arrow:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 35px;
+    margin-left: 35px;
+    border: medium inset transparent;
+}
+
+.mfp-arrow:after {
+    border-top-width: 13px;
+    border-bottom-width: 13px;
+    top: 8px;
+}
+
+.mfp-arrow:before {
+    border-top-width: 21px;
+    border-bottom-width: 21px;
+    opacity: 0.7;
+}
+
+.mfp-arrow-left {
+    left: 0;
+}
+
+.mfp-arrow-left:after {
+    border-right: 17px solid #fff;
+    margin-left: 31px;
+}
+
+.mfp-arrow-left:before {
+    margin-left: 25px;
+    border-right: 27px solid #3f3f3f;
+}
+
+.mfp-arrow-right {
+    right: 0;
+}
+
+.mfp-arrow-right:after {
+    border-left: 17px solid #fff;
+    margin-left: 39px;
+}
+
+.mfp-arrow-right:before {
+    border-left: 27px solid #3f3f3f;
+}
+
+.mfp-iframe-holder {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 900px;
+}
+
+.mfp-iframe-holder .mfp-close {
+    top: -40px;
+}
+
+.mfp-iframe-scaler {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.mfp-iframe-scaler iframe {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #000;
+}
+
+/* Main image in popup */
+img.mfp-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+}
+
+/* The shadow behind the image */
+.mfp-figure {
+    line-height: 0;
+}
+
+.mfp-figure:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 40px;
+    display: block;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #444;
+}
+
+.mfp-figure small {
+    color: #bdbdbd;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.mfp-figure figure {
+    margin: 0;
+}
+
+.mfp-bottom-bar {
+    margin-top: -36px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    cursor: auto;
+}
+
+.mfp-title {
+    text-align: left;
+    line-height: 18px;
+    color: #f3f3f3;
+    word-wrap: break-word;
+    padding-right: 36px;
+}
+
+.mfp-image-holder .mfp-content {
+    max-width: 100%;
+}
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape),
+screen and (max-height: 300px) {
+    .mfp-img-mobile .mfp-image-holder {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mfp-img-mobile img.mfp-img {
+        padding: 0;
+    }
+
+    .mfp-img-mobile .mfp-figure:after {
+        top: 0;
+        bottom: 0;
+    }
+
+    .mfp-img-mobile .mfp-figure small {
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .mfp-img-mobile .mfp-bottom-bar {
+        background: rgba(0, 0, 0, 0.6);
+        bottom: 0;
+        margin: 0;
+        top: auto;
+        padding: 3px 5px;
+        position: fixed;
+        box-sizing: border-box;
+    }
+
+    .mfp-img-mobile .mfp-bottom-bar:empty {
+        padding: 0;
+    }
+
+    .mfp-img-mobile .mfp-counter {
+        right: 5px;
+        top: 3px;
+    }
+
+    .mfp-img-mobile .mfp-close {
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        background: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .mfp-arrow {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+
+    .mfp-arrow-left {
+        -webkit-transform-origin: 0;
+        transform-origin: 0;
+    }
+
+    .mfp-arrow-right {
+        -webkit-transform-origin: 100%;
+        transform-origin: 100%;
+    }
+
+    .mfp-container {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+/* home - projects end */
+/* home - why choose us start */
+.why-choose {
+    padding: 30px 0;
+}
+.why-choose h5 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #484848;
+    margin-bottom: 30px;
+}
+.why-choose p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.why-choose .d-flex.align-items-center {
+    margin-bottom: 25px;
+}
+.why-choose .fa-chevron-right {
+    color: #ff0000;
+}
+/* home - why choose us end */
+/* home - Client says start */
+.client-says-carousel {
+    width: 70% !important;
+    margin: 0 auto;
+}
+.clients-says {
+    padding: 20px 0 80px 0;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.clients-says h5 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #484848;
+    margin-bottom: 30px;
+}
+.clients-says p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.clients-says .item {
+    border-radius: 5px;
+    padding: 20px;
+}
+.clients-says .item img {
+    width: auto !important;
+    margin: 0 auto 15px auto;
+}
+.clients-says .item p {
+    margin-bottom: 0;
+}
+.clients-says .item h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.clients-says .item h6 span {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.clients-says .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+.clients-says .owl-theme .owl-dots .owl-dot.active span,.clients-says .owl-theme .owl-dots .owl-dot:hover span {
+    background: #c5112d;
+}
+/* home - Client says end */
+/* home - Book An Appoinment start */
+.home-bookappointment {
+    background-image: url(../images/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 70px 0 40px 0;
+    color: #ffffff;
+}
+.home-bookappointment h5 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.home-bookappointment p {
+    font-size: 15px;
+}
+.home-bookappointment a {
+    background-color: #911b33;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.home-bookappointment a:hover {
+    background-color: #c5112d;
+}
+/* home - Book An Appoinment end */
+/* Footer start */
+footer {
+    padding: 50px 0;
+}
+footer p,footer a {
+   color: #202122
+}
+footer .d-flex.align-items-center {
+    margin: 20px 10px;
+    font-weight: 600;
+}
+footer h6 {
+    font-weight: 600;
+    font-size: 15px;
+    color: #202122
+}
+footer ul.list-unstyled {
+    padding-left: 21px;
+}
+footer ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+footer ul.list-unstyled li::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f054";
+    color: #b80d25;
+    font-weight: 700;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+    font-size: 10px;
+}
+footer a:hover {
+    color: #c5112d;
+}
+footer i.fa-brands {
+    font-size: 22px;
+}
+/* About us page css start */
+/* Banner section start */
+.about-banner {
+    background-image: url(../images/aboutus-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 0 0;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.about-banner h1 {
+    margin-bottom: 35px;
+}
+.about-banner h5 {
+    position: relative;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.about-banner h5::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 1px;
+    bottom: -4px;
+    right: 0;
+}
+.bg-overlay {
+    padding: 50px 0 30px 0;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+.about-banner ul.list-unstyled li {
+    position: relative;
+    padding-left: 65px;
+    line-height: 1.7;
+}
+.about-banner ul.list-unstyled li::before {
+    content: "";
+    background-color: #fff;
+    width: 4em;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    top: 11px;
+}
+/* Banner section end */
+/* process section start */
+.about-process {
+    padding: 60px 0 10px 0;
+}
+.about-process img {
+    margin-bottom: 15px;
+}
+.about-process h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+}
+.about-process p {
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #000;
+}
+/* process section end */
+/* portfolio section start */
+.text-black {
+    color:#000000 !important;
+}
+.browse-more {
+    color: #911b33;
+    font-weight: 500;
+    margin-top: 20px !important;
+    display: block;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.browse-more::after {
+    content: '';
+    position: absolute;
+    background: #000;
+    height: 1px;
+    bottom: 0;
+    right: 0;
+    left: 13px;
+    width: 70%;
+}
+/* About us page css end */
+/* Services page css start */
+.service-banner {
+    background-image: url(../images/service-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 0 0;
+}
+.service-banner h1 {
+    font-size: 40px;
+    color: #181b24;
+    font-weight: 600;
+}
+.service-banner p {
+    color: #181b24;
+    margin-bottom: 100px;
+}
+.service-bg-overlay {
+    padding: 100px 0;
+    background-color: rgba(141,131,159, 0.7);
+}
+.service-bg-overlay p {
+    margin-bottom: 50px;
+}
+.service-bg-overlay a {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.service-bg-overlay a:hover {
+    background-color: #c5112d;
+}
+.service-section {
+    padding: 60px 0;
+}
+.mainheading {
+    margin-bottom: 16px;
+}
+.subheading {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.number-round {
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 5px 18px;
+}
+.full-width {
+    margin: 40px auto 60px auto;
+    border-radius: 50px;
+    display: block;
+}
+.sec-headtag {
+    font-size: 40px;
+    color: #1e2122;
+    margin-bottom: 20px;
+}
+.sec-subheading {
+    color: #1e2122;
+    font-size: 15px;
+}
+.service-media-object {
+    margin-top: 30px;
+    color: #1e2122;
+}
+.service-media-object h5{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.service-media-object h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.service-media-object ul li {
+    line-height: 2;
+}
+.service-media-object p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.service-media-object .d-flex {
+    border-bottom: 1px solid #1e2122;
+    margin-bottom: 25px;
+}
+.why-choose-us {
+    padding: 50px 0 10px 0;
+    color: #1e2122;
+}
+.why-choose-us h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.why-choose-us p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.why-choose-us h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.border-right {
+    border-right: 1px solid #1e2122;
+}
+/* Services page css end */
+/* Contact us page css start */
+.contact-banner {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 0 0;
+}
+.contact-banner h1 {
+    margin-bottom: 20px;
+}
+.contact-banner p {
+    font-size: 15px;
+}
+.contact-info {
+    padding: 30px 0;
+}
+.contact-info .col-md-4 {
+    margin-bottom: 15px;
+}
+.contact-info a, .contact-info map {
+    color: #181b24;
+    font-size: 15px;
+}
+.contact-info a:hover {
+    color: #911b33;
+}
+.contact-form .form-control {
+    line-height: 2.5;
+    color: #181b24;
+    padding: 0.375rem 1.5rem;
+    font-size: 15px;
+}
+.contact-form .btn.btn-dark {
+    /* width: 100%; */
+    padding: 13px 65px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+}
+.contact-form .btn.btn-dark:hover {
+    background-color: #911b33;
+}
+.contact-form  textarea {
+    resize: none;
+}
+.contact-service-area {
+    padding: 70px 0 20px 0;
+}
+.contact-service-area p {
+    margin: 20px 0 30px 0;
+    font-size: 15px;
+}
+.contact-service-area ul li {
+    line-height: 2;
+}
+.contact-service-area ::marker {
+    font-size: 20px;
+}
+.contact-service-area ul li span {
+    position: relative;
+    top: -3px;
+}
+label.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+    display: block;
+    text-align: left;
+}
+/* Contact us page css end */
+/* Gallery page css start */
+.gallery-banner {
+    background-image: url(../images/gallery-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.gallery-banner h1 {
+    margin-bottom: 25px;
+    color: #c6122d;
+}
+.gallery-banner p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.gallery-thumbnail-slider {
+    padding: 60px 0 80px 0;
+}
+.gpage-width {
+    width: 70%;
+    margin: 0 auto;
+}
+#sync1 .owl-item {
+    margin-bottom: 10px;
+}
+#sync2 .owl-item img {
+    width: auto;
+    margin: 0 auto !important;
+    border: 2px solid #fff;
+}
+#sync2 {
+    width: 85%;
+    margin: 0 auto;
+}
+#sync2 .owl-nav {
+    margin-top: 0;
+}
+#sync2 button.owl-prev {
+    position: absolute;
+    left: -28px;
+    top: 13px;
+}
+#sync2 button.owl-next {
+    position: absolute;
+    right: -28px;
+    top: 13px;
+}
+#sync2 button span {
+    font-size: 40px;
+}
+#sync2 .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #212529;
+}
+#sync2 .owl-item.active.current .item img {
+    /* transform: scale(1.2);
+    transition: all 0.3s ease; */
+    border: 2px solid #c5112d;
+    border-radius: 12px;
+}
+/* Gallery page css end */
+/* Responsive CSS */
+@media only screen and (max-width: 1024px) {
+    .home-carousel .carousel-caption {
+        width: 100%;
+        text-align: center;
+        right: 0;
+        bottom: 5%;
+        left: 0;
+    }
+    .service-bg-overlay p br {
+        display: none;
+    }
+    .gpage-width {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar {
+        padding: 20px 0;
+    }
+    .container, .home-service-width, .project-width, .clients-says {
+        width: 100%;
+    }
+    .navbar-nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding-right: 0;
+    }
+    .home-services, .home-projects {
+        padding-top: 40px;
+    }
+    .home-carousel h5, .home-services h5, .home-projects h5, .why-choose h5, .clients-says h5, .home-bookappointment h5, .home-electrician h5, .gallery-banner h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .home-electrician a span {
+        font-size: inherit;
+        top: unset;
+    }
+    .why-choose {
+        padding-top: 0;
+    }
+    .clients-says {
+        padding: 0px 0 40px 0;
+    }
+    .home-services .col {
+        padding: 14px;
+    }
+    .home-services a {
+        font-size: 14px;
+    }
+    .home-services, .home-projects {
+        padding-bottom: 40px;
+    }
+    .service-banner h1, .sec-headtag, .why-choose-us h2, .contact-banner h1 {
+        font-size: 30px;
+    }
+    .service-banner {
+        padding-top: 60px;
+    }
+    .service-banner p {
+        margin-bottom: 50px;
+    }
+    .service-bg-overlay {
+        padding: 50px 0 80px 0;
+    }
+    .service-bg-overlay a {
+        padding: 15px 25px;
+    }
+    .contact-banner {
+        padding-top: 40px;
+    }
+    .contact-service-area {
+        padding: 40px 0 0 0;
+    }
+    .contact-service-area ul {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .home-bookappointment,.about-process {
+        text-align: center;
+    }
+    .border-right {
+        border-right: none;
+    }
+    .gallery-banner p {
+        font-size: 15px;
+    }
+    .gallery-banner {
+        padding: 100px 0;
+    }
+}
+@media only screen and (max-width: 515px) {
+    .home-services .row {
+        display: list-item;
+    }
+    .home-services .col {
+        width: auto;
+        text-align: center;
+        display: block;
+    }
+    .home-services a, .home-electrician p, .home-electrician a {
+        font-size: 13px;
+    }
+    .home-service-width {
+        margin-top: 0;
+    }
+    .home-services .border-end  {
+        border-right: none!important;
+    }
+    .home-electrician {
+        padding: 30px 0 50px 0;
+        text-align: center;
+    }
+    .home-projects h6 {
+        font-size: 16px;
+    }
+    .home-projects span, .home-bookappointment p, .why-choose .flex-grow-1 {
+        font-size: 13px;
+    }
+    .why-choose h5, .home-bookappointment {
+        text-align: center;
+    }
+    .home-bookappointment {
+        padding: 35px 0 45px 0;
+    }
+    footer {
+        padding: 25px 0;
+    }
+    .client-says-carousel {
+        width: 80% !important;
+    }
+    .home-carousel h5 {
+        font-size: 20px;
+        color: #484848;
+    }
+    .home-carousel p {
+        font-size: 13px;
+        color: #484848;
+        padding: 0 20px;
+        text-align: justify;
+    }
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+        display: none;
+    }
+    .home-carousel .carousel-caption {
+        display: block !important;
+        position: unset;
+        padding-bottom: 0;
+    }
+    a.navbar-brand.p-0 img {
+        width: 82%;
+    }
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar {
+        padding: 15px 0;
+    }
+    .home-services {
+        padding-top: 10px;
+    }
+    .home-carousel h5, .home-services h5, .home-projects h5, .why-choose h5, .clients-says h5, .home-bookappointment h5, .home-electrician h5, .gallery-banner h1 {
+        font-size: 20px;
+    }
+    .home-services p {
+        font-size: 13px;
+        width: 100%;
+        padding: 0 5px;
+        text-align: justify;
+    }
+    .home-projects {
+        padding-top: 23px;
+        padding-bottom: 12px;
+    }
+    .home-projects p {
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .why-choose {
+        padding-bottom: 5px;
+    }
+    .why-choose p {
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify !important;
+    }
+    .why-choose .col {
+        flex: auto;
+    }
+    .clients-says p {
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .clients-says .item h6 {
+        font-size: 16px;
+    }
+    footer p.pb-2.me-5 {
+        margin-right: 0 !important;
+        text-align: justify;
+        padding-bottom: 0 !important;
+    }
+    .home-bookappointment a {
+        font-size: 15px;
+    }
+    .about-process p, .about-banner p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .about-process h2 {
+        font-size: 20px;
+    }
+    .about-banner h5 {
+        font-size: 16px;
+    }
+    .about-banner h6 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-process p {
+        margin-bottom: 30px;
+    }
+    .browse-more {
+        margin-bottom: 30px;
+    }
+    .about-banner {
+        padding: 40px 0 0 0;
+    }
+    .about-banner h1 {
+        margin-bottom: 25px;
+    }
+    .about-banner ul.list-unstyled li {
+        font-size: 13px;
+    }
+    .about-process {
+        padding-top: 40px;
+    }
+    .service-banner h1, .sec-headtag, .why-choose-us h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .service-section {
+        padding: 40px 0;
+    }
+    .service-banner p {
+        font-size: 13px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+    .service-banner {
+        padding-top: 40px;
+    }
+    .service-bg-overlay {
+        padding: 30px 0 50px 0;
+    }
+    .mainheading br {
+        display: none;
+    }
+    .mainheading, .subheading {
+        text-align: center;
+    }
+    .subheading {
+        font-size: 15px;
+    }
+    .number-ptag {
+        font-size: 13px;
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    .number-round {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .full-width {
+        margin: 10px auto 30px auto;
+    }
+    .sec-subheading, .why-choose-us p, .contact-banner p, .contact-service-area p, .gallery-banner p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .service-media-object {
+        margin-top: 20px;
+    }
+    .service-media-object h6, .service-media-object h5 {
+        font-size: 16px;
+    }
+    .service-media-object .ms-5 {
+        margin-left: 1rem !important;
+    }
+    .why-choose-us {
+        padding: 20px 0 0 0;
+    }
+    .why-choose-us h5 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .contact-form .mb-4 {
+        margin-bottom: 16px !important;
+    }
+    .contact-form .form-control {
+        line-height: 2;
+        padding: 0.375rem 1rem;
+        font-size: 14px;
+    }
+    .contact-service-area {
+        padding: 20px 0 20px 0;
+    }
+    .contact-info {
+        padding: 15px 0 20px 0;
+    }
+    .contact-info h6 {
+        font-size: 15px;
+    }
+    .contact-info a, .contact-info map {
+        font-size: 14px;
+    }
+    .gallery-banner {
+        padding: 50px 0 20px 0;
+    }
+    .gallery-thumbnail-slider {
+        padding: 40px 0 40px 0;
+    }
+    #sync2 {
+        width: 100%;
+    }
+    #sync2 button.owl-prev, #sync2 button.owl-next {
+        position: unset;
+    }
+    #sync2 button span {
+        font-size: 30px;
+    }
+}
